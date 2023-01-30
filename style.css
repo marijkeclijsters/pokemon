@@ -78,18 +78,17 @@ hr {
 
 .clefairy-attacks, .clefairy-strengths {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 0.5rem;
+    align-items: center;
     gap: 2mm
 }
 
 .clefairy-attacks img, .clefairy-strengths img {
     width: 3mm;
     height: 3mm;
-    display: flex;
-    /* justify-content: center; */
-    justify-content: space-around;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: space-around; */
 }
 
 .image-attack {
