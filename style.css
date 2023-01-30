@@ -6,9 +6,9 @@ body {
 hr {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    border: 1px black solid ;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    border: 0.2px black solid ;
+    margin-top: 5px;
+    margin-bottom: 3px;
 }
 
 .small-font {
@@ -20,25 +20,19 @@ hr {
 }
 
 .padding1 {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-}
-
-.centering {
-    justify-content: center;
+    padding-left: 0.2rem;
+    padding-right: 0.3rem;
 }
 
 .card {
     background-color: yellow;
-    height: 8.6cm;
-    width: 6.3cm;
-    padding: 0.5rem;
+    height: 87mm;
+    width: 62mm;
+    padding: 2mm;
 }
 
 .inner-card {
     background-color: lightgrey;
-    height: 8.6cm;
-    width: 6.3cm;
 }
 
 .card-info {
@@ -49,21 +43,20 @@ hr {
 
 .clefairy-rechts {
     display: flex;
-    gap: 5px;
+    gap: 2mm;
     color: deeppink;
     justify-content: flex-end;
 }
 
 .clefairy-rechts img {
-    width: 20px;
-    height: auto;
+    width: 5mm;
+    height: 5mm;
     justify-content: flex-end;
 }
 
 .clefairy-pict {
     display: flex;
     justify-content: center;
-
 }
 
 .clefairy-pict img {
@@ -74,7 +67,7 @@ hr {
     padding-right: 3rem;
 }
 
-.clefairy-fake {
+.clefairy-properties {
     font-size: 0.5rem;
     text-align: center;
     background-color: yellow;
@@ -86,17 +79,32 @@ hr {
 .clefairy-attacks, .clefairy-strengths {
     display: flex;
     justify-content: space-around;
-    /* font-size: 0.5rem; */
-    margin-top: 4px;
+    margin-top: 0.5rem;
+    gap: 2mm
 }
 
-
 .clefairy-attacks img, .clefairy-strengths img {
-    width: 20px;
-    height: auto;
+    width: 3mm;
+    height: 3mm;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-attack {
+    width: 9mm;
     display: flex;
     justify-content: center;
-    /* justify-content: space-around; */
+    /* align-items: space-arround; */
+}
+
+.colorless3 {
+    width: 40mm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
 }
 
 .clefairy-attacks span, .clefairy-strengths span {
@@ -116,17 +124,17 @@ hr {
 }
 
 .clefairy-extra-info {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 4px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    margin-top: 0;
     flex-direction: row;
 }
 
 .clefairy-extra-info img{
-    display: flex;
-    align-items: center;
-    width: 1rem;
-    height: auto;
+    /* display: flex; */
+    /* align-items: center; */
+    width: 3mm;
+    height: 3mm;
 }
 
 .clefairy-extra-info p {
@@ -135,8 +143,12 @@ hr {
     display: flex;
     /* justify-content: center; */
 }
-
-.centreren {
+.info-text {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info-image {
+    display: flex;
+    justify-content: space-around;
 }
